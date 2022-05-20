@@ -1,27 +1,251 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>GeoAR.js demo</title>
-    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
-    <script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
-    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
-  </head>
+<head>
+<title> AR.js org threejs and aframe - examples</title>
 
-  <body style="margin: 0; overflow: hidden;">
-    <a-scene
-      vr-mode-ui="enabled: false"
-      embedded
-      arjs="sourceType: webcam; debugUIEnabled: false;"
-    >
-      <a-text
-        value="This content will always face you."
-        look-at="[gps-camera]"
-        scale="120 120 120"
-        gps-entity-place="latitude: <add-your-latitude>; longitude: <add-your-longitude>;"
-      ></a-text>
-      <a-camera gps-camera rotation-reader> </a-camera>
-    </a-scene>
-  </body>
+</head>
+<body>
+
+<div class="bigTitle">Three.js and AR.js Examples</div>
+<hr>
+The goal of this collection is to provide a set of basic and instructive examples that introduce the various features in the Javascript-based Augmented Reality (AR) library,
+<a class="toc" href="https://github.com/AR-js-org/AR.js.git">AR.js</a>. Advanced <a class="toc" href="https://threejs.org/">three.js</a> examples are also included.
+<br/><br/>
+Viewing the AR examples will require a device with a camera and one or both of the <a class="toc" href="markers/hiro.png">Hiro</a> and <a class="toc" href="markers/kanji.png">Kanji</a> marker patterns (either printed or displayed on a second device).
+<br/><br/>
+Source code hosted at <a class="toc" href="https://github.com/AR-js-org/AR.js.git">GitHub</a>.
+
+<hr/>
+
+<div class="fancy">
+<a href="./three.js/examples/arjs-session.html">
+
+<br/>threejs  arjs-session.html </a>
+<p class ="superText">three.js/examples/arjs-session.html </p>
+</div>
+
+<div class="fancy">
+<a href="./three.js/examples/basic.html">
+<br/>threejs basic.html</a>
+<p class ="superText">three.js/examples/basic.html </p>
+</div>
+
+<div class="fancy">
+<a href="./three.js/examples/boilerplate-threejs.html">
+<br/>boilerplate-threejs.html</a>
+<p class ="superText">three.js/examples/boilerplate-threejs.html </p>
+</div>
+
+<div class="fancy">
+<a href="./three.js/examples/default-thinner-border.html">
+<br/>threejs default-thinner-border.html</a>
+<p class ="superText">three.js/examples/default-thinner-border.html </p>
+</div>
+
+<div class="fancy">
+<a href="./three.js/examples/default.html">
+<br/>threejs default.html</a>
+<p class ="superText">three.js/examples/default.html </p>
+</div>
+
+<div class="fancy">
+<a href="./three.js/examples/dev.html">
+<br/>threejs dev.html</a>
+<p class ="superText">three.js/examples/dev.html </p>
+</div>
+
+<div class="fancy">
+<a href="./three.js/examples/measure-it.html">
+<br/>threejs measure-it.html</a>
+<p class ="superText">three.js/examples/measure-it.html </p>
+</div>
+
+<div class="fancy">
+<a href="./three.js/examples/minimal_ES6.html">
+<br/>threejs minimal_ES6.html</a>
+<p class ="superText">three.js/examples/minimal_ES6.html.</p>
+</div>
+
+<div class="fancy">
+<a href="./three.js/examples/mobile-performance.html">
+<br/>threejs mobile-performance.html</a>
+<p class ="superText">three.js/examples/mobile-performance.html.</p>
+</div>
+
+<div class="fancy">
+<a href="./three.js/examples/nft.html">
+<br/>threejs nft.html</a>
+<p class ="superText">three.js/examples/nft.html </p>
+</div>
+
+<div class="fancy">
+<a href="./three.js/examples/profile.html">
+<br/>threejs profile.html</a>
+<p class ="superText">three.js/examples/profile.html </p>
+</div>
+
+<div class="fancy">
+<a href="./three.js/examples/test-runner.html" target="_blank">
+<br/>threejs test-runner.html </a>
+<p class ="superText"> three.js/examples/test-runner.html  </p>
+</div>
+
+<div class="fancy">
+<a href="./aframe/examples/image-tracking/nft/index.html" target="_blank">
+<br/> aframe nft </a>
+<p class ="superText"> aframe/examples/image-tracking/nft/index.html </p>
+</div>
+
+<div class="fancy">
+<a href="./aframe/examples/image-tracking/nft-video/index.html" target="_blank">
+<br/> aframe nft video </a>
+<p class ="superText"> aframe/examples/image-tracking/nft-video/index.html  </p>
+</div>
+
+
+<div class="fancy">
+<a href="./aframe/examples/location-based/always-face-user/index.html" target="_blank">
+<br/>aframe location-based always-face-user</a>
+<p class ="superText"> aframe/examples/location-based/always-face-user </p>
+</div>
+
+<div class="fancy">
+<a href="./aframe/examples/location-based/avoid-shaking/index.html" target="_blank">
+<br/>aframe location-based avoid-shaking </a>
+<p class ="superText"> aframe location-based avoid-shaking </p>
+</div>
+
+<div class="fancy">
+<a href="./aframe/examples/location-based/click-places/index.html" target="_blank">
+
+<br/>aframe location-based click-places </a>
+<p class ="superText"> aframe location-based click-places </p>
+</div>
+
+<div class="fancy">
+<a href="./aframe/examples/location-based/hello-world/index.html" target="_blank">
+<br/>aframe location-based hello-world</a>
+<p class ="superText"> aframe/examples/location-based/hello-world </p>
+</div>
+
+<div class="fancy">
+<a href="./aframe/examples/location-based/max-min-distance/index.html" target="_blank">
+
+<br/>aframe location-based max-min-distance</a>
+<p class ="superText"> aframe location-based max-min-distance </p>
+</div>
+
+<div class="fancy">
+<a href="./aframe/examples/location-based/osm-ways/index.html" target="_blank">
+<br/>aframe location-based osm-ways</a>
+<p class ="superText"> aframe location-based osm-ways </p>
+</div>
+
+<div class="fancy">
+<a href="./aframe/examples/location-based/peakfinder-2d/index.html" target="_blank">
+<br/>aframe location-based peakfinder-2d</a>
+<p class ="superText">aframe location-based peakfinder-2d </p>
+</div>
+
+<div class="fancy">
+<a href="./aframe/examples/location-based/places-name/index.html" target="_blank">
+<br/>aframe location-based places-name </a>
+<p class ="superText"> aframe location-based places-name </p>
+</div>
+
+<div class="fancy">
+<a href="./aframe/examples/location-based/projected-base-camera/basic/index.html" target="_blank">
+<br/> aframe location-based projected-base-camera </a>
+<p class ="superText"> aframe location-based projected-base-camera </p>
+</div>
+
+<div class="fancy">
+<a href="./aframe/examples/location-based/projected-base-camera/way-vectors/index.html" target="_blank">
+<br/>aframe location-based projected-base-camera way-vectors</a>
+<p class ="superText"> aframe location-based projected-base-camera way-vectors </p>
+</div>
+
+<div class="fancy">
+<a href="./aframe/examples/location-based/show-arbitrary-distant-places/index.html" target="_blank">
+<br/>aframe location-based show-arbitrary-distant-places </a>
+<p class ="superText"> aframe location-based show-arbitrary-distant-places </p>
+</div>
+
+<div class="fancy">
+<a href="./aframe/examples/location-based/projected-base-camera/way-vectors/index.html" target="_blank">
+<br/>aframe location-based projected-base-camera way-vectors</a>
+<p class ="superText"> aframe location-based projected-base-camera way-vectors </p>
+</div>
+
+<div class="fancy">
+<a href="./aframe/examples/location-based/show-arbitrary-distant-places/index.html" target="_blank">
+<br/>aframe location-based show-arbitrary-distant-places </a>
+<p class ="superText"> aframe location-based show-arbitrary-distant-places </p>
+</div>
+
+<div class="fancy">
+<a href="./aframe/examples/marker-based/basic.html" target="_blank">
+<br/>aframe marker-based basic.html </a>
+<p class ="superText"> aframe/examples/marker-based/basic.html </p>
+</div>
+
+<div class="fancy">
+<a href="./aframe/examples/marker-based/marker-camera.html" target="_blank">
+<br/>aframe marker-based marker-camera </a>
+<p class ="superText"> aframe/examples/marker-based/marker-camera.html </p>
+</div>
+
+<div class="fancy">
+<a href="./aframe/examples/marker-based/marker-events.html" target="_blank">
+<br/>aframe marker-based marker-events </a>
+<p class ="superText"> aframe/examples/marker-based/marker-events.html </p>
+</div>
+
+<div class="fancy">
+<a href="./aframe/examples/marker-based/minimal_ES6.html" target="_blank">
+<br/>aframe marker-based minimal_ES6.html </a>
+<p class ="superText"> aframe/examples/marker-based/minimal_ES6.html </p>
+</div>
+
+<div class="fancy">
+<a href="./aframe/examples/marker-based/minimal.html" target="_blank">
+<br/>aframe marker-based minimal.html </a>
+<p class ="superText"> aframe/examples/marker-based/minimal.html </p>
+</div>
+
+<div class="fancy">
+<a href="./aframe/examples/marker-based/multiple-independent-markers.html" target="_blank">
+<br/>aframe marker-based multiple-independent-markers </a>
+<p class ="superText"> aframe marker-based multiple-independent-markers  </p>
+</div>
+
+<div class="fancy">
+<a href="./aframe/examples/marker-based/white-region-marker.html" target="_blank">
+<br/>aframe marker-based white-region-marker </a>
+<p class ="superText"> aframe marker-based white-region-marker </p>
+</div>
+
+<div class="fancy">
+<a href="./aframe/examples/new-location-based/index.html" target="_blank">
+<br/>aframe examples new-location-based </a>
+<p class ="superText"> aframe examples new-location-based </p>
+</div>
+<!--
+<div class="fancy">
+<a href="screen-hole.html" target="_blank">
+<img src="images/demo/screen-hole.png" class="superImage" />
+<br/>Screen Hole with Multiple Markers</a>
+<p class ="superText"> Simulating a "hole-in-the-wall" effect; uses <a href="markers/kanji-abcd.png">Kanji-ABCD</a> pattern. For simplicity, open <a href="screen-hole-QR.png">this image</a> and scan the QR code with your phone/tablet to be brought directly to the example (idea from Jerome Etienne). </p>
+</div>
+-->
+
+<!--
+<div class="fancy">
+<a href="zzzz.html" target="_blank">
+<img src="images/demo/zzzz.png" class="superImage" />
+<br/>zzzz</a>
+<p class ="superText"> ... </p>
+</div>
+-->
+
+</body>
 </html>
