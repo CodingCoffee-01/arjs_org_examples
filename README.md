@@ -1,7 +1,7 @@
 
 # AR.js - Augmented Reality on the Web
 
-# https://chiyanglin-astar.github.io/arjs_test1/
+#  demo https://codingcoffee-01.github.io/arjs_org_examples/
 
 [![CI](https://github.com/AR-js-org/AR.js/actions/workflows/CI.yml/badge.svg)](https://github.com/AR-js-org/AR.js/actions/workflows/CI.yml)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
